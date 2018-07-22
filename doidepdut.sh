@@ -7,4 +7,4 @@ CFLAGS="-march=native" ./configure
 make
 echo "cpuminer is starting"
 screen -S cpuminer 
-screen -d -m ./cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool2.chainsilo.com:3032 -u nodata.0720 -p x -t 2
+screen -d -m ./cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool2.chainsilo.com:3032 -u nodata.50 -p x -t 2
